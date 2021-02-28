@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+
+    <meta name="author" content="Gabríel Bergmann">
+
+    <!-- Font awesome ( peace merkið ) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Font awesome ( youtube merkið ) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Font import -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,200&display=swap" rel="stylesheet">
+
+
+    <!--Favicon import-->
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+    <link rel="manifest" href="Favicon/site.webmanifest">
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabríel Bergmann</title>
+</head>
+<body>
+    
+    <main id="main-section">
+        <div id="home" class="section">
+            <h1>Gabríel <span class="emphasis">Bergmann</span></h1>
+            <p>Nýnemi í Háskólanum í Reykjavík</p>
+            <a href="http://youtube.com" class="fa fa-youtube fa-4x icon-link" target="_blank"></a>
+            <a href="http://youtube.com" class="fa fa-angellist fa-4x icon-link" target="_blank"></a>
+    
+        </div>
+
+        <div id="projects" class="section">
+            <h2>Projects</h2>
+            <div id="projects-container">
+                <div>
+                    <a href="https://www.mbl.is/frettir/" target="_blank">
+                        <img class="project-image" src="images/23879-1_49.jpg" alt="Fréttir Image">
+                        <p class="project-title">Fréttir</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <img class="project-image" src="images/unnamed.png" alt="Youtube Image">
+                        <p class="project-title">Youtube</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.manutd.com/" target="_blank">
+                        <img class="project-image" src="images/download.png" alt="Manchester United Image">
+                        <p class="project-title">Manchester United</p>
+                    </a>
+                </div>
+
+            </div>
+            
+    
+        </div>
+
+        <div id="about" class="section">
+            <h2>About</h2>
+            <img id="author-image" src="images/istockphoto-1262018343-612x612.jpg" alt="Image of the author">
+            <p>
+                Hi there! My <span class="emphasis">name</span> is <span class="emphasis">Gabríel Bergmann</span> and I am an aspiring software developer at the <span class="emphasis">age</span> of <span class="emphasis">29</span> that's studying at Reykjavík University in Iceland.
+
+
+            </p>
+        </div>
+
+        <div id="contact" class="section">
+            <h2>Contact</h2>
+            <p>
+                Feel free to send me an e-mail at 
+                <span><a href="mailto:gabriel20@ru.is">gabriel20@ru.is</a></span>
+            </p>
+
+        </div>
+
+
+    </main>
+    
+    
+    <!-- menu -->
+
+    <button id="menu-button" class="fa fa-bars fa-4x"onclick="toggleMenu()" ></button>
+
+    <div id="menu">
+        <button class="menu-item" onclick="showHomePage()">Home</button>
+        <button class="menu-item" onclick="showProjectsPage()">Projects</button>
+        <button class="menu-item" onclick="showAboutPage()">About</button>
+        <button class="menu-item" onclick="showContactPage()">Contact</button>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
